@@ -1,18 +1,27 @@
-# Vehicle-Service-Management-System
-This system “Vehicle service management system (VSMS)” allows providing vehicle for service. If customer got any problem with his vehicle, they provide services.
+# Vehicle Service Management System
 
+## Setup Instructions
 
-The real power of this project lies not in direct selling of products, but in the creation of tighter relationships with customers and delivering of a high level of service and support, which in turn improves organization sales and its goodwill. A service organization is a business entity that takes care of servicing a customer instrument in the after sales domain.
+1. **Install Local Web Server:**
+   - Install XAMPP or WAMP on your local machine.
 
-# Software Specifications
-Operating System: Windows/Linux
+2. **Prepare the Project:**
+   - Download and extract the provided source code zip file.
+   - Copy the extracted folder to the `htdocs` directory (XAMPP) or `www` directory (WAMP).
 
-Programming language: PHP
+3. **Start Services:**
+   - Open XAMPP/WAMP Control Panel and start the **Apache** and **MySQL** services.
 
-Web-Technology: Open Source
+4. **Setup Database:**
+   - Go to [phpMyAdmin](http://localhost/phpmyadmin) in your browser.
+   - Create a new database named `vehicle_service_db`.
+   - Import the `vehicle_service_db.sql` file located in the `database` folder of the extracted source code.
 
-Front-End: PHP
+5. **Access the Application:**
+   - Visit [http://localhost/vehicle_service](http://localhost/vehicle_service) for the application.
+   - For the admin interface, go to [http://localhost/vehicle_service/admin](http://localhost/vehicle_service/admin).
 
-Back-End: MySQL
+### Default Admin Credentials
 
-Web Server: Apache
+- **Username**: `admin`
+- **Password**: `admin123`
